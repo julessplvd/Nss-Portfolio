@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jules</title>
+  <link rel="stylesheet" type="text/css" href="/lib/node_modules/materialize-css/dist/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300i,400" rel="stylesheet">
+
+</head>
+<body ng-app="Jules">
+
+ <div ng-include="'partials/navbar.html'"></div>
+
+ <div id="pageWrapper" class="container" ng-view>
+  </div>
+
+  <script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+
+  <script type="text/javascript" src="lib/node_modules/materialize-css/js"></script>
+  <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<!-- app files -->
+  <script type="text/javascript" src="app/app.js"></script>
+<!-- controllers -->
+  <script type="text/javascript" src="app/controllers/home.js"></script>
+  <script type="text/javascript" src="app/controllers/portfolio.js"></script>
+  <script type="text/javascript" src="app/controllers/about.js"></script>
+  <script type="text/javascript" src="app/controllers/resume.js"></script>
+  <script type="text/javascript" src="app/controllers/blog.js"></script>
+  <script type="text/javascript" src="app/controllers/contact.js"></script>
+</body>
+</html>
