@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  // overflow-y: hidden;
+}
+/****** GENERAL ******/
+body,
+html {
+  height: 100%;
+  background-color: white;
+  font-family: 'Libre Franklin', sans-serif;    
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: line-through;
+  color: magenta;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: block;
+  float: left;
+}
+
+li a {
+  padding: 8%;
+  margin: 8%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Franklin', sans-serif;  
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container { 
+  padding: 0px;
+}
+
+/****** NAV ******/
+nav {
+  /* background: #ffcc33 !important; */
+  /* background: #f0f0f0 !important; */
+  background: white !important;
+  /* background: #fa625f !important; */
+}
+
+img.loggo {
+  max-height: 68px;
+}
+a.nav-item.nav-link.link {
+  color: black;
+  /* border: 2px solid black; */
+  margin: 8px;
+}
+a.nav-item.nav-link.link:hover {
+  text-decoration: line-through;
+  color: #e4001c;
+}
+
+a.nav-item {
+  padding: 4px;
+  color: black;
+}
+
+.logo {
+  padding: 4px;
+  color: black;
+}
+
+img.jules {
+  max-height: 17rem;
+  padding: 2%;
+}
+
+.directory {
+  text-align: center;
+}
+/******* ABOUT *******/
+#about {
+  padding-top: 8%;
+  height: 45rem;  
+  background-color: #f0f0f0;
+}
+
+.bumper {
+  padding: 8%;
+}
+
+.about-me {
+  padding: .8 rem;
+}
+/* iphone 5 and smaller */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  #about {
+    padding-top: 33%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+  }
+  .directory {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  #about {
+    padding-top: 20%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+  }
+}
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  #about {
+    padding-top: 20%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+  }
+  .directory {
+    margin-left: 0%;
+  }
+  .summary{
+    padding-left: 4%;
+  }
+}
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    #about {
+      padding-top: 32%;
+    }
+    img.jules {
+      max-height: 14rem;
+      padding: 2%;
+    }
+  }
+
+h1.opener {
+  color:black;
+  font-size: 500%;
+  font-weight: bold;
+  font-family: Kollektif-Bold;
+}
+
+/****** PROJECTS ********/
+#projects {
+  padding-top: 3%;
+  height: 45rem;
+}
+#projects h1 {
+  color: #e4001c;
+}
+
+a.github {
+  color: white;
+  background-color: #e4001c;
+  border: 2px solid #e4001c;
+
+}
+a.github:hover {
+  color: white;
+  background-color: #e4001c;
+  border: 2px solid #e4001c;
+}
+
+a.linkedin {
+  color: white;
+  background-color: #e4001c;
+  border: 2px solid #e4001c;
+}
+
+.iconLink {
+font-size: 1.7rem
+}
+
+/****** TECHNOLOGIES ******/
+#technologies {
+  padding-top: 3%;
+  height: 45rem;
+}
+
+.logos {
+  padding: .25rem;
+  margin: .75rem;
+  border: none;
+}
+
+/****** CONTACT ******/
+#contact {
+  padding-top: 3%;
+  height: 45rem;
+}
+
+/****** FOOTER ******/
+#footer {
+  height: 7rem;
+  background-color: #f0f0f0;
+}
+
+#footer h4 {
+  font-size: 1.5vw;
+  margin: 15px 0 0 15%;
+  font-weight: 300;
+}
+#footer ul {
+  list-style-type: none;
+  float: right;
+  margin: 14px 15% 0 0;
+  padding-left: 0;
+}
+#footer ul li {
+  display: inline;
+  padding: 0.8em;
+}
+#footer ul li a {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
