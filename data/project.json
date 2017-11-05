@@ -1,0 +1,16 @@
+{
+	"project": [
+		{
+			"title": "Olive Recipe App",
+			"github_url": "https://github.com/julessep/Olive",
+			"img_1": "images/recipe.jpg",
+			"description": "A recipe finder app that allows user to save favorite recipes and filter by ingredient, diet type or category."
+		},
+		{
+			"title": "Back-end Capstone",
+			"github_url": "https://github.com/julessep/",
+			"img_1": "images/time.jpg",
+			"description": "Coming November 2017!"
+		}
+  ]
+}
