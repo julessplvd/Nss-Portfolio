@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   // overflow-y: hidden;
 }
 /****** GENERAL ******/
@@ -164,8 +164,8 @@ h1.opener {
 /****** PROJECTS ********/
 #projects {
   padding-top: 3%;
-  height: 45rem;
 }
+
 #projects h1 {
   color: #e4001c;
 }
@@ -195,7 +195,6 @@ font-size: 1.7rem
 /****** TECHNOLOGIES ******/
 #technologies {
   padding-top: 3%;
-  height: 45rem;
 }
 
 .logos {
@@ -207,9 +206,11 @@ font-size: 1.7rem
 /****** CONTACT ******/
 #contact {
   padding-top: 3%;
-  height: 45rem;
 }
-
+.subHead {
+  float: right;
+  text-decoration: underline;
+}
 /****** FOOTER ******/
 #footer {
   height: 7rem;
