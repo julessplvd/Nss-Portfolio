@@ -18740,7 +18740,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "    <div class=\"col-12 col-sm-12 col-md-6\">\n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
+  return "    <div class=\"col-12 col-sm-12 col-md-4\">\n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
     + alias4(((helper = (helper = helpers.img_1 || (depth0 != null ? depth0.img_1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img_1","hash":{},"data":data}) : helper)))
     + "\" class=\"imgOne card-img-top\">\n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
