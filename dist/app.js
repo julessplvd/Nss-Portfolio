@@ -117,6 +117,7 @@ $('#techGrid').append(technologiesInfoGrid);
 
 let projectGrid = projectCards({ project });
 $('#projectsGrid').append(projectCards({ project }));
+
 },{"../data/project.json":1,"../data/technologies.json":2,"../templates/projects.hbs":52,"../templates/technologies.hbs":53,"handlebars":35,"jquery":49}],4:[function(require,module,exports){
 (function (process,__filename){
 /** vim: et:ts=4:sw=4:sts=4

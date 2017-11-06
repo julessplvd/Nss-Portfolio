@@ -54,9 +54,6 @@ h1, h2, h3, h4 {
   padding: 0px;
 }
 
-.float-right {
-  float: right;
-}
 hr {
   display: block;
   text-align: center;
@@ -120,10 +117,6 @@ img.jules {
   overflow-y: hidden;
 }
 
-// .bumper {
-//   padding: 8%;
-// }
-
 .about-me {
   padding-left: 6rem;
   padding-right: 6rem;
@@ -149,12 +142,9 @@ h1.opener {
   padding-top: 5%;
 }
 
-
-
-
 /****** PROJECTS ********/
 #projects {
-  padding-top: 6.8%;
+  padding-top: 6.7%;
 }
 #projectsGrid {
   padding-top: 2%;  
@@ -198,7 +188,7 @@ a.linkedin:hover {
 }
 /****** TECHNOLOGIES ******/
 #technologies {
-  padding-top: 6.8%;
+  padding-top: 6.7%;
 }
 #technologies h1{
   color: black;
@@ -232,29 +222,15 @@ a.linkedin:hover {
 
 /****** FOOTER ******/
 #footer {
-  height: 12rem;
+  height: 15rem;
   background-color: #f0f0f0;
 }
 
-#footer h4 {
-  font-size: 1.5vw;
-  margin: 15px 0 0 15%;
-  font-weight: 300;
+.footCont {
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
-#footer ul {
-  list-style-type: none;
-  float: right;
-  margin: 14px 15% 0 0;
-  padding-left: 0;
-}
-#footer ul li {
-  display: inline;
-  padding: 0.8em;
-}
-#footer ul li a {
-  font-size: 1.1em;
-  font-weight: 300;
-}
+
 
 /* iphone 5 and smaller */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
@@ -348,6 +324,9 @@ a.linkedin:hover {
   @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
     #about {
       padding-top: 24%;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      overflow-y: hidden;
     }
     img.jules {
       max-height: 13rem;
