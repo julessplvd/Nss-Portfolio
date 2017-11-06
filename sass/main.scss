@@ -41,6 +41,7 @@ li a {
 
 h1, h2, h3, h4 {
   font-family: 'Libre Franklin', sans-serif;  
+  // font-family: 'Playfair Display SC', serif;  
 }
 
 .center-block {
@@ -84,6 +85,7 @@ a.nav-item.nav-link.link {
 }
 a.nav-item.nav-link.link:hover {
   text-decoration: line-through;
+  text-decoration-color: #e4001c;
   color: #e4001c;
 }
 
@@ -99,7 +101,7 @@ a.nav-item {
 
 img.jules {
   max-height: 17rem;
-  padding: 1%;
+  padding: 1.5%;
   margin-right: 0px; 
 }
 
@@ -139,103 +141,16 @@ img.jules {
 }
 h1.opener {
   color: blue;
-  font-size: 600%;
+  font-family: 'Heebo', sans-serif;
+  font-size: 607%;
   overflow-y: hidden;
-  
   font-weight: bold;
   line-height: .8;
-  font-family: Kollektif;
   padding-top: 5%;
 }
-/* iphone 5 and smaller */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
-  #about {
-    padding-top: 33%;
-  }
-  img.jules {
-    max-height: 14rem;
-    padding: 2%;
-    margin-right: auto;
-    
-  }
-  .directory {
-    margin-left: 0%;
-  }
-  .about-me {
-    padding-left: .8rem;
-    padding-right: .8rem;
-  }
-  h1.opener{
-    text-align: center;
-    font-size: 300%;
-  }
-}
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
-  #about {
-    padding-top: 20%;
-  }
-  img.jules {
-    max-height: 14rem;
-    padding: 2%;
-    margin-right: auto;
-    
-  }
-  .about-me {
-    padding-left: .8rem;
-    padding-right: .8rem;
-  }
-  h1.opener{
-    text-align: center;
-    font-size: 320%;    
-  }
-}
-/* iPhone 6 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  #about {
-    padding-top: 18%;
-  }
-  img.jules {
-    max-height: 14rem;
-    padding: 2%;
-    margin-right: auto;
-  }
-  .directory {
-    margin-left: 0%;
-  }
-  .summary{
-    padding-left: 4%;
-  }
-  .about-me {
-    padding-left: .8rem;
-    padding-right: .8rem;
-  }
-  h1.opener{
-    text-align: center;
-    font-size: 320%;    
-  }
-}
-  
-  @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    #about {
-      padding-top: 24%;
-    }
-    img.jules {
-      max-height: 13rem;
-      padding: 2%;
-      margin-right: auto;
-    }
-    .about-me {
-      padding-left: .8rem;
-      padding-right: .8rem;
-    }
-    h1.opener{
-    font-size: 375%;
-    text-align: center;
-    }
-    .socialLinks {
-      margin: 10px;
-    }
-  }
+
+
+
 
 /****** PROJECTS ********/
 #projects {
@@ -253,31 +168,34 @@ h1.opener {
 .github {
   color: white;
   background-color: #e4001c;
-  border: 2px solid #e4001c;
-
+  padding: 1px 3px 0px 3px;
 }
 a.github:hover {
   color: white;
-  background-color: #e4001c;
-  border: 2px solid #e4001c;
+  text-decoration: line-through;
 }
 
 .linkedin {
   color: white;
   background-color: #e4001c;
-  border: 2px solid #e4001c;
-  padding: 4px;
+  padding: 5px 6px 5px 6px;
 }
 a.linkedin:hover {
   color: white;
-  background-color: #e4001c;
-  border: 2px solid #e4001c;
+  text-decoration: line-through;
 }
 
 .iconLink {
-font-size: 1.7rem
+  font-size: 1.9rem;
 }
-
+.cardHeight {
+  min-height: 15.5rem;
+  max-height: 15.5rem;
+}
+.card-body.description{
+  min-height: 9rem;
+  max-height: 9rem;
+}
 /****** TECHNOLOGIES ******/
 #technologies {
   padding-top: 6.8%;
@@ -311,6 +229,7 @@ font-size: 1.7rem
   font-size: 250%;
   color: #e4001c;
 }
+
 /****** FOOTER ******/
 #footer {
   height: 12rem;
@@ -336,4 +255,126 @@ font-size: 1.7rem
   font-size: 1.1em;
   font-weight: 300;
 }
+
+/* iphone 5 and smaller */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  #about {
+    padding-top: 33%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+    margin-right: auto;
+    
+  }
+  .directory {
+    margin-left: 0%;
+  }
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+  h1.opener{
+    text-align: center;
+    font-size: 300%;
+  }
+  .subHead {
+    float: none;
+    margin-left: 2rem;
+  }
+  .subContact {
+    margin-left: 2rem;    
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  #about {
+    padding-top: 20%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+    margin-right: auto;
+    
+  }
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+  h1.opener{
+    text-align: center;
+    font-size: 320%;    
+  }
+  .subHead {
+    float: none;
+    margin-left: 2rem;
+  }
+  .subContact {
+    margin-left: 2rem;    
+  }
+}
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  #about {
+    padding-top: 18%;
+  }
+  img.jules {
+    max-height: 14rem;
+    padding: 2%;
+    margin-right: auto;
+  }
+  .directory {
+    margin-left: 0%;
+  }
+  .summary{
+    padding-left: 4%;
+  }
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+  h1.opener{
+    text-align: center;
+    font-size: 320%;    
+  }
+  .subHead {
+    float: none;
+    margin-left: 2rem;
+  }
+  .subContact {
+    margin-left: 2rem;    
+  }
+}
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    #about {
+      padding-top: 24%;
+    }
+    img.jules {
+      max-height: 13rem;
+      padding: 2%;
+      margin-right: auto;
+    }
+
+    .directory {
+      margin-left: 0%;
+    }
+    .about-me {
+      padding-left: .8rem;
+      padding-right: .8rem;
+    }
+    h1.opener{
+    font-size: 375%;
+    text-align: center;
+    }
+    .socialLinks {
+      margin: 10px;
+    }
+    .subHead {
+      float: none;
+      margin-left: 2rem;
+    }
+    .subContact {
+      margin-left: 2rem;    
+    }
+  }
 

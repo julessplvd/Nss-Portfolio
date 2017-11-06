@@ -12,6 +12,12 @@ module.exports={
 			"github_url": "https://github.com/julessep/",
 			"img_1": "images/time.jpg",
 			"description": "Coming November 2017!"
+		},
+		{
+			"title": "Ecommerce Site",
+			"github_url": "https://github.com/julessep/",
+			"img_1": "images/jellys.jpg",
+			"description": "Coming Soon!"
 		}
   ]
 }
@@ -18742,7 +18748,7 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
 
   return "    <div class=\"col-12 col-sm-12 col-md-4\">\n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
     + alias4(((helper = (helper = helpers.img_1 || (depth0 != null ? depth0.img_1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img_1","hash":{},"data":data}) : helper)))
-    + "\" class=\"imgOne card-img-top\">\n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
+    + "\" class=\"imgOne card-img-top cardHeight\">\n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
     + "</h4>\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
@@ -18756,7 +18762,7 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
 
   return "				<a href=\""
     + container.escapeExpression(((helper = (helper = helpers.link || (depth0 != null ? depth0.link : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"link","hash":{},"data":data}) : helper)))
-    + "\" class=\"fa fa-globe iconLInk\" target=\"_blank\"></a>\n";
+    + "\" class=\"fa fa-globe iconLink\" target=\"_blank\"></a>\n";
 },"4":function(container,depth0,helpers,partials,data) {
     var helper;
 
