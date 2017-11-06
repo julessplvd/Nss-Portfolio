@@ -3,7 +3,7 @@
     <div class="col-12 col-sm-12 col-md-4">
 		<div class="card">
 			<div class="overlay-container">
-				<img src="{{img_1}}" class="imgOne card-img-top">
+				<img src="{{img_1}}" class="imgOne card-img-top cardHeight">
 					<div class="card-body description">
 						<h4 class="card-title">{{title}}</h4>
 						<p class="card-text">{{description}}</p>
@@ -12,7 +12,7 @@
 			<div class="card-body profile-links d-flex justify-content-around"> {{!-- icon/link strip at bottom of card --}}
 				<!-- deployed site if exists -->
 				{{#if link}}
-				<a href="{{link}}" class="fa fa-globe iconLInk" target="_blank"></a>
+				<a href="{{link}}" class="fa fa-globe iconLink" target="_blank"></a>
 				{{/if}}
 				<!-- github link -->
 				{{#if github_url}}
