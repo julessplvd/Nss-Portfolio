@@ -14,8 +14,9 @@ a {
   color: #000; }
 
 a:hover {
-  text-decoration: line-through;
-  color: magenta; }
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black; }
 
 ul {
   list-style-type: none;
@@ -42,6 +43,18 @@ h1, h2, h3, h4 {
 .container {
   padding: 0px; }
 
+.float-right {
+  float: right; }
+
+hr {
+  display: block;
+  text-align: center;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid gold;
+  margin: 1em 4em;
+  padding: 0; }
+
 /****** NAV ******/
 nav {
   /* background: #ffcc33 !important; */
@@ -50,7 +63,8 @@ nav {
   /* background: #fa625f !important; */ }
 
 img.loggo {
-  max-height: 68px; }
+  max-height: 68px;
+  margin-left: 2px; }
 
 a.nav-item.nav-link.link {
   color: black;
@@ -71,22 +85,43 @@ a.nav-item {
 
 img.jules {
   max-height: 17rem;
-  padding: 2%; }
+  padding: 1%;
+  margin-right: 0px; }
 
 .directory {
-  text-align: center; }
+  text-align: center;
+  margin-left: 62%; }
 
 /******* ABOUT *******/
 #about {
   padding-top: 8%;
-  height: 45rem;
-  background-color: #f0f0f0; }
-
-.bumper {
-  padding: 8%; }
+  background-image: url("../images/whiteboard.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow-y: hidden; }
 
 .about-me {
-  padding: .8 rem; }
+  padding-left: 6rem;
+  padding-right: 6rem; }
+
+.mainBanner {
+  padding-top: 4%;
+  padding-bottom: 2%; }
+
+.bottomBanner {
+  padding-bottom: 2%; }
+
+.socialLinks {
+  padding-bottom: 3%; }
+
+h1.opener {
+  color: blue;
+  font-size: 600%;
+  overflow-y: hidden;
+  font-weight: bold;
+  line-height: .8;
+  font-family: Kollektif;
+  padding-top: 5%; }
 
 /* iphone 5 and smaller */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
@@ -95,53 +130,89 @@ img.jules {
 
   img.jules {
     max-height: 14rem;
-    padding: 2%; }
+    padding: 2%;
+    margin-right: auto; }
 
   .directory {
-    margin-left: 0%; } }
+    margin-left: 0%; }
+
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem; }
+
+  h1.opener {
+    text-align: center;
+    font-size: 300%; } }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   #about {
     padding-top: 20%; }
 
   img.jules {
     max-height: 14rem;
-    padding: 2%; } }
+    padding: 2%;
+    margin-right: auto; }
+
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem; }
+
+  h1.opener {
+    text-align: center;
+    font-size: 320%; } }
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   #about {
-    padding-top: 20%; }
+    padding-top: 18%; }
 
   img.jules {
     max-height: 14rem;
-    padding: 2%; }
+    padding: 2%;
+    margin-right: auto; }
 
   .directory {
     margin-left: 0%; }
 
   .summary {
-    padding-left: 4%; } }
+    padding-left: 4%; }
+
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem; }
+
+  h1.opener {
+    text-align: center;
+    font-size: 320%; } }
 @media only screen and (min-device-width: 375px) and (max-device-height: 668px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   #about {
-    padding-top: 32%; }
+    padding-top: 24%; }
 
   img.jules {
-    max-height: 14rem;
-    padding: 2%; } }
-h1.opener {
-  color: black;
-  font-size: 500%;
-  font-weight: bold;
-  font-family: Kollektif-Bold; }
+    max-height: 13rem;
+    padding: 2%;
+    margin-right: auto; }
 
+  .about-me {
+    padding-left: .8rem;
+    padding-right: .8rem; }
+
+  h1.opener {
+    font-size: 375%;
+    text-align: center; }
+
+  .socialLinks {
+    margin: 10px; } }
 /****** PROJECTS ********/
 #projects {
-  padding-top: 3%;
-  height: 45rem; }
+  padding-top: 6.8%; }
+
+#projectsGrid {
+  padding-top: 2%; }
 
 #projects h1 {
-  color: #e4001c; }
+  color: black;
+  border-bottom: 3px solid gold; }
 
-a.github {
+.github {
   color: white;
   background-color: #e4001c;
   border: 2px solid #e4001c; }
@@ -151,7 +222,13 @@ a.github:hover {
   background-color: #e4001c;
   border: 2px solid #e4001c; }
 
-a.linkedin {
+.linkedin {
+  color: white;
+  background-color: #e4001c;
+  border: 2px solid #e4001c;
+  padding: 4px; }
+
+a.linkedin:hover {
   color: white;
   background-color: #e4001c;
   border: 2px solid #e4001c; }
@@ -161,8 +238,11 @@ a.linkedin {
 
 /****** TECHNOLOGIES ******/
 #technologies {
-  padding-top: 3%;
-  height: 45rem; }
+  padding-top: 6.8%; }
+
+#technologies h1 {
+  color: black;
+  border-bottom: 3px solid gold; }
 
 .logos {
   padding: .25rem;
@@ -171,12 +251,25 @@ a.linkedin {
 
 /****** CONTACT ******/
 #contact {
+  padding-top: 6.8%;
+  padding-bottom: 9%; }
+
+#contact h1 {
+  color: black;
+  border-bottom: 3px solid gold; }
+
+.contactCont {
   padding-top: 3%;
-  height: 45rem; }
+  padding-top: 3%; }
+
+.subHead {
+  float: right;
+  font-size: 250%;
+  color: #e4001c; }
 
 /****** FOOTER ******/
 #footer {
-  height: 7rem;
+  height: 12rem;
   background-color: #f0f0f0; }
 
 #footer h4 {
