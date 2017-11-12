@@ -59,6 +59,9 @@ nav {
   background: white !important;
   /* background: #fa625f !important; */ }
 
+.nav-link {
+  display: inline-block; }
+
 img.loggo {
   max-height: 68px;
   margin-left: 2px; }
@@ -161,6 +164,14 @@ a.linkedin:hover {
   min-height: 9rem;
   max-height: 9rem; }
 
+/****** Bio ******/
+section#bio {
+  padding-top: 6.7%; }
+
+.bio h1 {
+  color: black;
+  border-bottom: 3px solid gold; }
+
 /****** TECHNOLOGIES ******/
 #technologies {
   padding-top: 6.7%; }
@@ -173,6 +184,12 @@ a.linkedin:hover {
   padding: .25rem;
   margin: .75rem;
   border: none; }
+
+a.NSS {
+  color: #f26c2d; }
+
+a.example {
+  color: #503980; }
 
 /****** CONTACT ******/
 #contact {
@@ -189,7 +206,6 @@ a.linkedin:hover {
 
 .subHead {
   float: right;
-  font-size: 250%;
   color: #e4001c; }
 
 /****** FOOTER ******/
@@ -201,6 +217,10 @@ a.linkedin:hover {
   padding-top: 3%;
   padding-bottom: 2%; }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0; } }
 /* iphone 5 and smaller */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   #about {
