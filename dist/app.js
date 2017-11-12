@@ -18749,9 +18749,9 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
 
   return "    <div class=\"col-12 col-sm-12 col-md-4\">\n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
     + alias4(((helper = (helper = helpers.img_1 || (depth0 != null ? depth0.img_1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img_1","hash":{},"data":data}) : helper)))
-    + "\" class=\"imgOne card-img-top cardHeight\">\n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
+    + "\" class=\"imgOne card-img-top cardHeight\">\n					<div class=\"card-body description\">\n						<h3 class=\"card-title\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-    + "</h4>\n						<p class=\"card-text\">"
+    + "</h3>\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n					</div>\n			</div>\n			<div class=\"card-body profile-links d-flex justify-content-around\"> \n				<!-- deployed site if exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.link : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
