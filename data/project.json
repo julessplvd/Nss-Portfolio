@@ -1,16 +1,16 @@
 {
 	"project": [
 		{
-			"title": "Olive Recipe App",
+			"title": "Olive",
 			"github_url": "https://github.com/julessep/Olive",
 			"img_1": "images/recipe.jpg",
-			"description": "A recipe finder app that allows user to save favorite recipes and filter by ingredient, diet type or category."
+			"description": "Olive is a recipe finder app that allows you to save favorite recipes and filter by ingredient, diet type or category."
 		},
 		{
-			"title": "Back-end Capstone",
-			"github_url": "https://github.com/julessep/",
-			"img_1": "images/time.jpg",
-			"description": "Coming November 2017!"
+			"title": "NatlParkNow",
+			"github_url": "https://github.com/julessep/NatlParkNow",
+			"img_1": "images/natlpark.jpg",
+			"description": "NatlParkNow gives you an inside look to the US National Parks at any time of the year by viewing the most recent photos of each park associated with their twitter handle."
 		},
 		{
 			"title": "Ecommerce Site",

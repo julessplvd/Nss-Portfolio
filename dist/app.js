@@ -2,16 +2,16 @@
 module.exports={
 	"project": [
 		{
-			"title": "Olive Recipe App",
+			"title": "Olive",
 			"github_url": "https://github.com/julessep/Olive",
 			"img_1": "images/recipe.jpg",
-			"description": "A recipe finder app that allows user to save favorite recipes and filter by ingredient, diet type or category."
+			"description": "Olive is a recipe finder app that allows you to save favorite recipes and filter by ingredient, diet type or category."
 		},
 		{
-			"title": "Back-end Capstone",
-			"github_url": "https://github.com/julessep/",
-			"img_1": "images/time.jpg",
-			"description": "Coming November 2017!"
+			"title": "NatlParkNow",
+			"github_url": "https://github.com/julessep/NatlParkNow",
+			"img_1": "images/natlpark.jpg",
+			"description": "NatlParkNow gives you an inside look to the US National Parks at any time of the year by viewing the most recent photos of each park associated with their twitter handle "
 		},
 		{
 			"title": "Ecommerce Site",
@@ -18749,11 +18749,11 @@ module.exports = HandlebarsCompiler.template({"1":function(container,depth0,help
 
   return "    <div class=\"col-12 col-sm-12 col-md-4\">\n		<div class=\"card\">\n			<div class=\"overlay-container\">\n				<img src=\""
     + alias4(((helper = (helper = helpers.img_1 || (depth0 != null ? depth0.img_1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img_1","hash":{},"data":data}) : helper)))
-    + "\" class=\"imgOne card-img-top cardHeight\">\n					<div class=\"card-body description\">\n						<h3 class=\"card-title\">"
+    + "\" class=\"imgOne card-img-top cardHeight\">\n					<div class=\"card-body description\">\n						<h4 class=\"card-title\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-    + "</h3>\n						<p class=\"card-text\">"
+    + "</h4>\n						<p class=\"card-text\">"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
-    + "</p>\n					</div>\n			</div>\n			<div class=\"card-body profile-links d-flex justify-content-around\"> \n				<!-- deployed site if exists -->\n"
+    + "</p>\n					</div>\n			</div>\n			<div class=\"card-body profile-links d-flex\"> \n				<!-- deployed site if exists -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.link : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				<!-- github link -->\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.github_url : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
