@@ -186,6 +186,10 @@ a.linkedin:hover {
   min-height: 15.5rem;
   max-height: 15.5rem;
 }
+.card-body {
+  padding: .85rem;
+  overflow-y: hidden;
+}
 .card-body.description{
   min-height: 9rem;
   max-height: 9rem;
